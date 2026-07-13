@@ -1,8 +1,8 @@
 apiVersion : v1
 kind : Service
 metadata:
-  name: myproject-service
-spec:
+  name: mysqldb
+  spec:
   ClusterIP : None
   selector:
     app: database
